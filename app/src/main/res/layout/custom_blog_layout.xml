@@ -24,10 +24,9 @@
             <TextView
                 android:id="@+id/blog_title"
                 android:text="Enter blog title..."
-                android:textSize="20sp"
-                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:layout_margin="7dp"
                 android:textColor="@android:color/darker_gray"
-                android:textStyle="bold"
                 android:layout_toRightOf="@+id/blog_photo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -35,8 +34,8 @@
             <TextView
                 android:id="@+id/blog_author"
                 android:text="Enter blog author name..."
-                android:textSize="14sp"
-                android:layout_marginLeft="5dp"
+                android:textSize="13sp"
+                android:layout_marginLeft="7dp"
                 android:textColor="@android:color/darker_gray"
                 android:textStyle="italic"
                 android:layout_below="@+id/blog_title"
@@ -48,7 +47,7 @@
                 android:id="@+id/credentials"
                 android:layout_below="@+id/blog_author"
                 android:layout_toRightOf="@+id/blog_photo"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="7dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="3dp"
                 android:orientation="horizontal"
@@ -124,7 +123,7 @@
             <TextView
                 android:id="@+id/read_more"
                 android:text="Read More..."
-                android:layout_margin="5dp"
+                android:layout_margin="7dp"
                 android:textAllCaps="false"
                 android:textStyle="italic"
                 android:layout_below="@+id/credentials"
