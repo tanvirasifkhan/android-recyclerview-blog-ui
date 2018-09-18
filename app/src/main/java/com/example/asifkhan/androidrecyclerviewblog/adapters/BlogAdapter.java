@@ -36,7 +36,7 @@ public class BlogAdapter extends RecyclerView.Adapter<BlogAdapter.DataHolder> {
     public void onBindViewHolder(@NonNull DataHolder holder, int position) {
         Blog blog=blogs.get(position);
         holder.title.setText(blog.getTitle());
-        holder.author.setText(blog.getAuthor());
+        holder.author.setText("by : "+blog.getAuthor());
         holder.likes.setText(String.valueOf(blog.getLikes()));
         holder.comments.setText(String.valueOf(blog.getComments()));
         holder.shares.setText(String.valueOf(blog.getShares()));
