@@ -7,6 +7,6 @@
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
-
+    <include android:id="@+id/toolbar" layout="@layout/custom_toolbar"/>
 
 </LinearLayout>
