@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 
 import com.example.asifkhan.androidrecyclerviewblog.R;
 import com.example.asifkhan.androidrecyclerviewblog.adapters.BlogAdapter;
@@ -63,5 +64,11 @@ public class MainActivity extends AppCompatActivity {
         for(int count=0;count<titles.length;count++){
             blogs.add(new Blog(titles[count],authors[count],likes[count],comments[count],shares[count],photos[count]));
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar_option_menu,menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }
